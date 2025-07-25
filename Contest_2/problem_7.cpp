@@ -23,15 +23,16 @@ int main()
     int n;
     cin >> n;
     int count = 0;
+
+    if (n / 100 == 1)
+    {
+        count++;
+    }
+    if ((n / 10) % 10 == 1)
+    {
+        count++;
+    }
     if (n % 10 == 1)
-    {
-        count++;
-    }
-    if (n % 100 == 1)
-    {
-        count++;
-    }
-    if (n % 1000 == 1)
     {
         count++;
     }
