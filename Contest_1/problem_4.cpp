@@ -1,18 +1,31 @@
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     long long st; cin >> st;
+//     long long p; cin >> p;
+
+//     int count = 0;
+//     for(int i = 1; i >= 0; i++){
+
+//         long long a = p * i;
+//         if(a > st){
+//             break;
+//         }
+//         count++;
+//     }
+//     cout << count+1;
+//     return 0;
+// }
+
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int st; cin >> st;
-    int p; cin >> p;
+    long long st; cin >> st;
+    long long p; cin >> p;
 
-    int count = 0;
-    for(int i = 1; i >= 0; i++){
+    // int count = 0;
+    long long a = st / p;
 
-        int a = p * i;
-        if(a > st){
-            break;
-        }
-        count++;
-    }
-    cout << count+1;
+    cout << a+1;
     return 0;
 }
