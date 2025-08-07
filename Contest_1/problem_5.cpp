@@ -7,8 +7,7 @@ int main(){
     int area = (a * b);
     int P = 2 * (a+b);
 
-    cout << area << endl;
-    cout << P << endl;
+    cout << area <<" " << P << endl;
     
     return 0;
 }
