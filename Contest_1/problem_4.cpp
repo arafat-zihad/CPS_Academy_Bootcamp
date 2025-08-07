@@ -23,16 +23,7 @@ int main(){
     long long st; cin >> st;
     long long p; cin >> p;
 
-    // int count = 0;
-    long long a = st / p;
-    if(st%2==0){
-        cout << a;
-    }
-    else{
-        cout << a+1;
-    }
-    
-
+    cout << (st+p-1)/p << endl;
     
     return 0;
 }
